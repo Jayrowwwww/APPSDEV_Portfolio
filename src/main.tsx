@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import "@/styles/global.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MainLayout from "@/layouts/MainLayout";
+import MainLayout from "@/pages/MainLayout";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Services from "@/pages/Services";

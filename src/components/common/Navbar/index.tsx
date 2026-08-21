@@ -24,7 +24,6 @@ export default function Navbar() {
             </NavLink>
           </div>
 
-          {/* Desktop Menu */}
           <nav className="hidden md:flex space-x-8 items-center">
             {navLinks.map((link) => (
               <NavLink
@@ -40,17 +39,15 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* CTA Button */}
           <div className="hidden md:flex items-center">
             <a
-              href="mailto:hello@example.com"
+              href="mailto:salerajerrehromer@gmail.com"
               className="bg-primary text-white font-bold text-xs tracking-wider px-6 py-4 flex items-center gap-2 hover:bg-red-700 transition-colors"
             >
               LET'S TALK <ArrowUpRight size={16} />
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -62,7 +59,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -88,7 +84,7 @@ export default function Navbar() {
                 </NavLink>
               ))}
               <a
-                href="mailto:hello@example.com"
+                href="mailto:salerajerrehromer@gmail.com"
                 className="mt-4 bg-primary text-white font-bold text-xs tracking-wider px-6 py-4 flex justify-center items-center gap-2 hover:bg-red-700 transition-colors w-full"
               >
                 LET'S TALK <ArrowUpRight size={16} />
