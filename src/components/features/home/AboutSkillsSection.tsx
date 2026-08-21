@@ -58,10 +58,6 @@ export function AboutSkillsSection() {
               </div>
             </div>
           ))}
-
-          <button className="mt-8 border-2 border-dark text-xs font-bold tracking-widest uppercase py-4 px-8 flex items-center justify-center gap-4 hover:bg-dark hover:text-white transition-colors w-max">
-            Download Resume <Download size={16} />
-          </button>
         </div>
       </div>
     </section>

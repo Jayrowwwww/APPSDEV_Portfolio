@@ -4,7 +4,6 @@ import {
   HomeServicesSection,
   SelectedWorkSection,
   StatsSection,
-  TrustedBySection,
 } from "@/components/features/home";
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
         <SelectedWorkSection />
         <HomeServicesSection />
         <AboutSkillsSection />
-        <TrustedBySection />
       </div>
     </div>
   );
